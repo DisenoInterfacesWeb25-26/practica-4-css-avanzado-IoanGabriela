@@ -132,6 +132,24 @@ a:hover {
   text-decoration: underline;
 }
 
+/* PÁGINA FLEXBOX DEL APARTADO 4.11.1. */
+#flexbox_principal {
+  background-color: #9fbf9e;
+  text-align: center;
+}
+
+#flexbox_cuerpo {
+  display: flex;
+  flex-wrap: wrap;        
+  justify-content: center; 
+  align-items: center;
+  background-color: #d4ebe8;
+}
+
+.contenedor_flex {
+  background-color: #d6ceb7;
+}
+
 /* TABLA SERVICIOS */
 table { 
   width: 100%;

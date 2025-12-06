@@ -33,49 +33,14 @@
     </header>
 
     <main>
-        <section>
-            <form name="formulario" id="formulario">
-                    <fieldset>
-                        <legend>Formulario de contacto</legend>
-
-                        <!--NOMBRE-->
-                        <label for="name">Nombre completo: </label>
-                        <input type="text" class="rounded-input" name="name" id="name" maxlength="40" pattern="[A-Za-z0-9 ]+" placeholder="Nombre y apellidos" required autofocus>
-
-                        <!--EMAIL-->
-                        <label for="email">Email: </label>
-                        <input type="email" class="rounded-input" name="email" id="email" placeholder="Email" required>
-
-                        <!--EDAD-->
-                        <label for="age">Edad: </label>
-                        <input type="number" class="rounded-input" name="age" id="age" min="18" max="99" placeholder="Edad" required>
-
-                        <!--TELÉFONO-->
-                        <label for="telephone">Teléfono de contacto: </label>
-                        <input type="tel" class="rounded-input" pattern="[0-9]+" name="telephone" id="telephone" placeholder="Teléfono contacto" required>
-
-                        <!--CAMPO CONSULTA-->
-                        <label for="consulta">¿Alguna pregunta?: </label>
-                        <textarea rows="5" class="rounded-input" cols="50" placeholder="consulta" id="consulta" required></textarea>
-
-                        <!--CHECKBOX-->
-                        <div class="checkbox_container">
-                            <input type="checkbox" class="rounded-input" id="check" required> 
-                            <label for="check" id="check_texto">Acepto la política de privacidad y cookies.</label>
-                        </div>
-
-                        <!--BOTÓN ENVIAR-->
-                        <button type="submit">Enviar</button>
-                    </fieldset>
-                </form>
-            </section>
-
-            <section id="datos_contacto">
-                <h2>Datos de contacto</h2>
-                <p>También puedes comunicarte con nosotros directamente:</p>
-                <p>Teléfono: <a href="tel:+34900111222">900 111 222</a></p>
-                <p>Email: <a href="mailto:info@superdiw.com">info@superdiw.com</a></p>
-            </section>
+        <div id="flexbox_principal">
+            <h2>Aquí los contenedores con Flexbox aplicado tal y como se pide en el apartado 4.11.1.</h2>
+            <div id="flexbox_cuerpo">  
+                <p class="contenedor_flex"><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis magni nulla inventore vero minima ipsam ipsa cumque voluptas deserunt amet molestiae tempora exercitationem veritatis earum, delectus vel odit molestias cupiditate.</p>
+                <p class="contenedor_flex"><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam tenetur voluptatum atque modi obcaecati, earum ipsum mollitia nobis non fugit facere aliquid suscipit assumenda facilis excepturi quis nesciunt. Delectus, eos.</p>
+                <p class="contenedor_flex"><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At facilis sint pariatur officia. Magni, eaque in id ipsam autem quae impedit sequi ipsum nesciunt dolor cupiditate sint blanditiis? Blanditiis, itaque?</p>
+            </div> 
+        </div>
     </main>
 
     <footer>
