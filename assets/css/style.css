@@ -19,11 +19,27 @@ img {
   height: auto;
 }
 
+img:not([alt]) { /* ACTIVIDAD 4.7.1. */
+  border: 3px solid red;
+}
+
+a[href$=".pdf"]::after { /* ACTIVIDAD 4.7.1. */
+  background-image: url("icono_pdf.png");
+}
+
 /* ENCABEZADO Y MENÚ */
 header { 
   color: #3b3b2f;
   text-align: center;
   padding: 24px 0px;
+}
+
+#icono_logo { /* ACTIVIDAD 5.4.1 */
+  transition: transform 1s ease;
+}
+
+#icono_logo:hover { /* ACTIVIDAD 5.4.1 */
+  transform: rotate(45deg);
 }
 
 header h1 {
@@ -35,7 +51,7 @@ nav {
   top: 0px;
   width: 100%;
   text-align: center;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 5px 0px #034f17; /* ACTIVIDAD 4.6.1. */
 }
 
 nav ul {
@@ -54,6 +70,7 @@ nav a {
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1em;
+  transition: background-color 3s ease 2s; /* ACTIVIDAD 5.3.1 */
 }
 
 nav a:hover {
@@ -71,6 +88,7 @@ nav a:visited, section a:visited, aside a:visited, footer a:visited {
 nav a:hover, section a:hover, aside a:hover, footer a:hover {
   color: #fff;
   background-color: #64b3b0;
+  border-radius: 20px; /* ACTIVIDAD 5.3.1 No es estrictamente una transición pero sí que hay un cambio en el botón y lo he sacado del apartado de transiciones*/
 }
 
 nav a:active, section a:active, aside a:active, footer a:active {
@@ -241,10 +259,12 @@ button {
   transition: 0.2s ease-in-out;
   padding: 12px;
   font-size: 1em;
+  transition: font-size 2s ease 1s; /* ACTIVIDAD 5.3.1. */
 }
 
 button:hover {
   background-color: #4a9693;
+  font-size: 28px; /* ACTIVIDAD 5.3.1. */
 }
 
 /* FOOTER */
