@@ -1,0 +1,145 @@
+/* TODO */
+* {
+    background-color: rgba(144, 205, 149, 0.428);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;  
+}
+
+body {
+    background-color: bisque;
+}
+
+/* CABECERA Y MENÚ */
+#cabecera_menu {
+    background-color: rgb(7, 81, 12);
+}
+
+    #cabecera { /* ¿Está mal que haga este tab en un css? Sé que no tiene utilidad real como en html pero me resulta más cómodo para trabajar */
+        background-color: rgb(188, 114, 23);
+        border: 1px solid blue;  
+    }
+
+    #menu {
+        background-color: blue;
+        border: 1px solid blue;
+    }
+
+/* NAVS, CUERPO Y BANNER */
+#navs_cuerpo_banner {
+    background-color:rgb(11, 97, 97);
+}
+
+    #nav1 {
+        background-color: coral;
+        border: 1px solid blue;
+    }
+
+    #nav2 {
+        background-color: cornflowerblue;
+        border: 1px solid blue; 
+    }
+
+    #cuerpo {
+        background-color: rgb(118, 145, 30);
+        border: 1px solid blue;
+    }
+
+    #banner {
+        background-color: crimson;
+        border: 1px solid blue;
+    }
+
+/* FOOTER */
+#footer {
+    background-color: aqua;
+    border: 1px solid blue;
+}
+
+/* ORDENADOR */
+@media (min-width: 1200px) {
+    body {
+        font-family: Arial;
+        color:azure;
+    }
+
+    #navs_cuerpo_banner {
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+        #nav1 { 
+            float: left;
+            width: 15%;
+            height: 500px;
+        }
+
+        #nav2 {
+            float: left;
+            width: 80%;
+        }
+
+        #cuerpo {
+            float: left;
+            width: 55%;
+            height: 400px;
+        }
+
+        #banner {
+            float: left;
+            width: 20%;
+            height: 400px;
+        }
+
+    #footer {
+        clear: both;
+    }
+}
+
+/* TABLET */
+@media (min-width: 700px) and (max-width: 1199px) {
+    body {
+        font-family: sans-serif; /* Pongo esta en vez porque la font-family de calibri no me lo reconoce */
+        color:blue;
+    }
+
+    #navs_cuerpo_banner {
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+        #nav1 { 
+            float: left;
+            width: 15%;
+            height: 500px;
+        }
+
+        #nav2 { /* En la imagen el NAV2 desaparece... lo pongo aquí porque me resulta lógico y fácil */
+            float: left;
+            width: 15%;
+            height: 500px;
+        }
+
+        #cuerpo {
+            float: left;
+            width: 60%;
+            height: 500px;
+        }
+
+        #banner {
+            clear: both;
+        }
+
+    #footer {
+        clear: both;
+    }
+}
+
+/* MÓVIL */
+@media (max-width: 699px) {
+    body {
+        font-family: 'Times New Roman';
+        color:darkkhaki;
+    }
+}
