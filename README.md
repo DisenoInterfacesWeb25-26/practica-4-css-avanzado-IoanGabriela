@@ -10,17 +10,17 @@ La maqueta se guardará en dos archivos llamados maqueta.html y maqueta.css
 
 Ordenador, a partir de 1200px
 
-![Index HTML5](/images/ordenador1.png)
+![Index HTML5](assets/images/ordenador1.png)
 
 
 Tablet, a partir de 700px y hasta 1200px
 
-![Index HTML5](/images/tablet1.png)
+![Index HTML5](assets/images/tablet1.png)
 
 
 Móvil, hasta 700px
 
-![Index HTML5](/images/movil1.png)
+![Index HTML5](assets/images/movil1.png)
 
 ## Actividad 1.2 (2 puntos) 
 Modificar la web realizada en los temas anteriores para que cambie su visualización dependiendo si se accede desde un ordenador, una tablet o un móvil.
