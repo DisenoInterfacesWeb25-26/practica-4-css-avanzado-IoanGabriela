@@ -259,7 +259,7 @@ button {
   transition: 0.2s ease-in-out;
   padding: 12px;
   font-size: 1em;
-  transition: font-size 2s ease 1s; /* ACTIVIDAD 5.3.1. */
+  transition: font-size 2s ease; /* ACTIVIDAD 5.3.1. */
 }
 
 button:hover {
