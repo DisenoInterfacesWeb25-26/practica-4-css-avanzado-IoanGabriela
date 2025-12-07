@@ -116,11 +116,12 @@ body {
         }
 
         #nav2 {
+            clear: both;
             display: none;
         }
 
         /* Si lo de que desaparezca el nav2 en formato tablet es un error... lo suyo para meterlo con float quedaría así. He dejado los tamaños de los float ajustados para que sólo sea sustituir una por otra y queda bien cuadrado, aunque con el nav2 borrado queda un poco feo el cuerpo, es por este motivo. */
-        
+
         /* #nav2 { 
             float: left;
             width: 15%;
