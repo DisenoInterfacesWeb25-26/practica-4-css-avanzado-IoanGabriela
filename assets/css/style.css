@@ -177,7 +177,7 @@ caption {
   caption-side: bottom;
   font-style: italic;
   margin-top: 8px;
-  color: #6d8f6c;
+  color: #092508;
 }
 
 tr:first-child {
@@ -209,7 +209,7 @@ fieldset {
 
 legend {
   font-weight: bold;
-  color: #6d8f6c;
+  color: #081b07;
   font-size: 1em;
   margin-bottom: 8px;
 }
@@ -253,7 +253,7 @@ input:focus, textarea:focus {
 
 button {
   background-color: #64b3b0;
-  color: #fff;
+  color: #200640;
   cursor: pointer;
   border: none;
   padding: 12px;
